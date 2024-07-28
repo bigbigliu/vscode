@@ -1,0 +1,115 @@
+{
+    // 使用 Material Icon 主题作为工作台的图标主题
+    "workbench.iconTheme": "material-icon-theme",
+    // 文件自动保存设置为在焦点变化时保存
+    "files.autoSave": "onFocusChange",
+    // 编辑器字体大小设置为14像素
+    "editor.fontSize": 14,
+    // 关闭对大文件的编辑器优化
+    "editor.largeFileOptimizations": false,
+    // 编辑器显示活跃括号对
+    // "editor.guides.bracketPairs": "active",
+    // 启用字体连字
+    "editor.fontLigatures": true,
+    // 粘贴时不格式化代码
+    "editor.formatOnPaste": false,
+    // 启用内联建议
+    "editor.inlineSuggest.enabled": true,
+    // 开启 TabNine 实验性自动导入功能
+    "tabnine.experimentalAutoImports": true,
+    // LeetCode 插件的终端点设置为中国站点
+    "leetcode.endpoint": "leetcode-cn",
+    // LeetCode 插件的工作空间文件夹路径
+    "leetcode.workspaceFolder": "/Users/bigbigliu/.leetcode",
+    // 调试控制台字体大小设置为14像素
+    "debug.console.fontSize": 14,
+    // 禁用扩展自动检查更新
+    "extensions.autoCheckUpdates": true,
+    // 只更新已选择的扩展
+    "extensions.autoUpdate": "onlySelectedExtensions",
+    // 未指定 hediet.vscode-drawio 插件的图片大小调整配置
+    "hediet.vscode-drawio.resizeImages": null,
+    // 工作台颜色主题设置为"Just Black"
+    "workbench.colorTheme": "Dracula Theme",
+    // 将 Git 和 GitLens 插件中的 .md 和 .csv 文件关联到默认编辑器
+    "workbench.editorAssociations": {
+        "{git,gitlens}:/**/*.{md,csv}": "default",
+        "{git,gitlens}:/**/*.{md,csv,svg}": "default"
+    },
+    // 不显示缩写建议
+    "emmet.showAbbreviationSuggestions": true,
+    // GOPATH
+    "go.gopath": "/Users/bigbigliu/gocode",
+    // GOROOT
+    "go.goroot": "/usr/local/go",
+    // Go 扩展自动更新工具
+    "go.toolsManagement.autoUpdate": true,
+    // 控制调试器（debugger）在与调试服务器通信时记录哪些类型的消息
+    "go.trace.server": "messages",
+    // 格式化工具
+    "go.formatTool": "gofmt",
+    "go.lintTool": "golangci-lint",
+    "vscode-office.editorTheme": "Dracula",
+    "explorer.compactFolders": false,
+    "editor.fontWeight": "normal",
+    "editor.fontVariations": false,
+
+    // 丝滑打字配置
+    "editor.smoothScrolling": true,
+    "editor.cursorBlinking": "expand",
+    "editor.cursorSmoothCaretAnimation": "on",
+    "workbench.list.smoothScrolling": true,
+
+    // 鼠标控制文字大小
+    "editor.mouseWheelZoom": true,
+
+    // 彩虹括号与作用域块线条提示
+    "editor.guides.bracketPairs": true,
+    "editor.bracketPairColorization.enabled": true,
+
+    // 控制活动代码段是否阻止快速建议
+    "editor.suggest.snippetsPreventQuickSuggestions": false,
+    // 除了 `Tab` 键以外， `Enter` 键是否同样可以接受建议
+    // 这能减少“插入新行”和“接受建议”命令之间的歧义
+    "editor.acceptSuggestionOnEnter": "smart",
+    // 代码补全列表中，优先选择最近的建议
+    "editor.suggestSelection": "recentlyUsedByPrefix",
+    "editor.suggest.insertMode": "replace",
+
+    // 自动补全括号、引号
+    "editor.autoClosingBrackets": "beforeWhitespace",
+    "editor.autoClosingDelete": "always",
+    "editor.autoClosingOvertype": "always",
+    "editor.autoClosingQuotes": "beforeWhitespace",
+
+    // 关闭缩进猜测
+    "editor.detectIndentation": false,
+    "editor.tabSize": 4,
+
+    // 枚举类型数值提示
+    "typescript.inlayHints.enumMemberValues.enabled": true,
+
+    // 终端代码补全
+    "terminal.integrated.shellIntegration.suggestEnabled": true,
+
+    // 搜索排除目录
+    "search.exclude": {
+        "**/node_modules": true,
+        "**/pnpm-lock.yaml": true,
+        "**/package-lock.json": true,
+        "**/.DS_Store": true,
+        "**/.git": true,
+        "**/.gitignore": true,
+        "**/.idea": true,
+        "**/.svn": true,
+        "**/.vscode": true,
+        "**/build": true,
+        "**/dist": true,
+        "**/tmp": true,
+        "**/yarn.lock": true
+    },
+    "terminal.integrated.mouseWheelZoom": true,
+    "terminal.integrated.fontSize": 14,
+    "git.ignoreLegacyWarning": true
+}
+
